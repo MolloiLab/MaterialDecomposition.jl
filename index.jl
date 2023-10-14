@@ -1,6 +1,10 @@
 ### A Pluto.jl notebook ###
 # v0.19.26
 
+#> [frontmatter]
+#> title = "MaterialDecomposition.jl"
+#> sidebar = "false"
+
 using Markdown
 using InteractiveUtils
 
@@ -26,11 +30,6 @@ md"""
 
 # ╔═╡ 07565aa1-e2d7-4aa8-8fd4-4e294aaf549a
 to_html(hr())
-
-# ╔═╡ d65a8df4-8182-476b-9329-57af447c78a3
-#> [frontmatter]
-#> title = "ComputerVisionMetrics"
-#> sidebar = "false"
 
 # ╔═╡ 9d05688b-d3bd-44f3-ac55-2711b19200f7
 TableOfContents()

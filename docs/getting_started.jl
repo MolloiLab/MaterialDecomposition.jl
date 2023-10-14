@@ -1,6 +1,10 @@
 ### A Pluto.jl notebook ###
 # v0.19.26
 
+#> [frontmatter]
+#> title = "Getting Started"
+#> category = "Tutorials"
+
 using Markdown
 using InteractiveUtils
 
@@ -13,11 +17,6 @@ using MaterialDecomposition
 
 # ╔═╡ 3fa63042-dbf8-4a59-ba41-00e6dde42c46
 using PlutoUI
-
-# ╔═╡ 3205f091-d42f-467f-887f-182b588e8ef4
-#> [frontmatter]
-#> title = "Getting Started"
-#> category = "Tutorials"
 
 # ╔═╡ b13982a8-31f0-4134-8db9-b77c83265b3e
 TableOfContents()

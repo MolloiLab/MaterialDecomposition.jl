@@ -1,6 +1,10 @@
 ### A Pluto.jl notebook ###
 # v0.19.26
 
+#> [frontmatter]
+#> title = "API"
+#> category = "API"
+
 using Markdown
 using InteractiveUtils
 
@@ -13,11 +17,6 @@ using MaterialDecomposition
 
 # ╔═╡ 052c0ccb-838b-4813-917e-d6ef88abdab0
 using PlutoUI
-
-# ╔═╡ e995663f-6058-4bb9-a878-cb1f3299757f
-#> [frontmatter]
-#> title = "API"
-#> category = "API"
 
 # ╔═╡ a480a678-73cc-4f82-8a94-a213f602eef7
 TableOfContents()
