@@ -62,15 +62,14 @@ The key function in MaterialDecomposition.jl for this is `quantify()`
 """
 
 # ╔═╡ 0d128764-56f3-48de-a5d0-50a36a8682e0
-Resource("http://www.seanmobberley.com/images/tissuevolumefraction.jpg")
+Resource("https://www.researchgate.net/publication/314971050/figure/fig3/AS:961372816945163@1606220549117/Sample-results-of-material-decomposition-of-PCD-CT-images-iodine-gadolinium-and_W640.jpg")
 
 # ╔═╡ 4611790d-bf4d-4843-960b-0b6e501bb4c7
 md"""
-Source: [/THREEMATERIALDECOMPOSITION](http://www.seanmobberley.com/projects/3-material.html)
+Source: [Dual-contrast agent photon-counting computed tomography of the heart: initial experience](https://link.springer.com/article/10.1007/s10554-017-1104-4)
 """
 
 # ╔═╡ Cell order:
-# ╟─3205f091-d42f-467f-887f-182b588e8ef4
 # ╠═a689b8ff-41c7-4083-a533-b73370410de1
 # ╠═311b647f-1314-441d-901f-3655eabd4875
 # ╠═3fa63042-dbf8-4a59-ba41-00e6dde42c46

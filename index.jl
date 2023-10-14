@@ -74,9 +74,9 @@ end
 
 # ╔═╡ 24f8322e-a47d-4909-9a96-c8907da68400
 article_list_tutorials = Article[
-	Article("Getting Started", "docs/getting_started.jl", "https://img.freepik.com/free-photo/futuristic-spaceship-takes-off-into-purple-galaxy-fueled-by-innovation-generated-by-ai_24640-100023.jpg"),
-	Article("Calcium Quantification", "docs/calcium_quantification.jl", "https://img.freepik.com/premium-vector/calcium-float-out-bone-capsule-help-heal-arthritis-knee-joint-pain-leg-healthy-bones_228260-720.jpg"),
-	Article("Water/Lipid Quantification", "docs/water_lipid_quantification.jl", "https://img.freepik.com/free-vector/cholesteral-human-heart_1308-33171.jpg"),
+	Article("Getting Started", "docs/01_getting_started.jl", "https://img.freepik.com/free-photo/futuristic-spaceship-takes-off-into-purple-galaxy-fueled-by-innovation-generated-by-ai_24640-100023.jpg"),
+	Article("Calcium Quantification", "docs/02_calcium_quantification.jl", "https://img.freepik.com/premium-vector/calcium-float-out-bone-capsule-help-heal-arthritis-knee-joint-pain-leg-healthy-bones_228260-720.jpg"),
+	Article("Water/Lipid Quantification", "docs/03_water_lipid_quantification.jl", "https://img.freepik.com/free-vector/cholesteral-human-heart_1308-33171.jpg"),
 ];
 
 # ╔═╡ 5bdfd581-3b45-4e4d-a6ec-9d0ef0c11136
