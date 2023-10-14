@@ -1,7 +1,6 @@
 module MaterialDecomposition
 
-using Revise
-using LsqFit
+using LsqFit: curve_fit
 
 
 """
@@ -22,7 +21,7 @@ function fit_calibration(
 
     F(x, p) = (p[1] .+ (p[2] .* x[:, 1]) .+ (p[3] .* x[:, 2]) .+ (p[4] .* x[:, 1] .^ 2) .+ (p[5] .* x[:, 1] .* x[:, 2]) .+ (p[6] .* x[:, 2] .^ 2)) ./ (1 .+ (p[7] .* x[:, 1]) + (p[8] .* x[:, 2]))
 
-    p = LsqFit.curve_fit(F, calculated_calcium_intensities, known_calcium_densities, p0).param
+    p = curve_fit(F, calculated_calcium_intensities, known_calcium_densities, p0).param
     return p
 end
 
