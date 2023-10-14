@@ -2,9 +2,12 @@ module MaterialDecomposition
 
 using LsqFit: curve_fit
 
-
 """
-	fit_calibration(calculated_calcium_intensities, calcium_densities, p0::AbstractVector=zeros(8))
+## `fit_calibration`
+	
+```julia
+fit_calibration(calculated_calcium_intensities, calcium_densities, p0::AbstractVector=zeros(8))
+```
 
 Calibration equation, where `p0` is a vector of initial parameters that must be fit to underlying data 
 (`calculated_calcium_intensities`) which contains the "high" and "low" energy measurements for various 
@@ -26,8 +29,12 @@ function fit_calibration(
 end
 
 """
-	quantify(low_energy_intensity, high_energy_intensity, p, alg::MaterialDecomposition)
-    quantify(low_energy_intensity, high_energy_intensity, p, vol_ROI, alg::MaterialDecomposition)
+## `quantify`
+
+```julia
+quantify(low_energy_intensity, high_energy_intensity, p, alg::MaterialDecomposition)
+quantify(low_energy_intensity, high_energy_intensity, p, vol_ROI, alg::MaterialDecomposition)
+```
 
 Given a dual-energy CT image. First, calculate the measured intensity of a region of interest (ROI) 
 with suspected calcium for both low (`low_energy_intensity`) and high (`high_energy_intensity`) energy scans, 
