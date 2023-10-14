@@ -14,6 +14,11 @@ using MaterialDecomposition
 # ╔═╡ 3fa63042-dbf8-4a59-ba41-00e6dde42c46
 using PlutoUI
 
+# ╔═╡ 3205f091-d42f-467f-887f-182b588e8ef4
+#> [frontmatter]
+#> title = "Getting Started"
+#> category = "Tutorials"
+
 # ╔═╡ b13982a8-31f0-4134-8db9-b77c83265b3e
 TableOfContents()
 
@@ -66,6 +71,7 @@ Source: [/THREEMATERIALDECOMPOSITION](http://www.seanmobberley.com/projects/3-ma
 """
 
 # ╔═╡ Cell order:
+# ╟─3205f091-d42f-467f-887f-182b588e8ef4
 # ╠═a689b8ff-41c7-4083-a533-b73370410de1
 # ╠═311b647f-1314-441d-901f-3655eabd4875
 # ╠═3fa63042-dbf8-4a59-ba41-00e6dde42c46
