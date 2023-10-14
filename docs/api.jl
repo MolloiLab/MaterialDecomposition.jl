@@ -14,13 +14,13 @@ using MaterialDecomposition
 # ╔═╡ 052c0ccb-838b-4813-917e-d6ef88abdab0
 using PlutoUI
 
-# ╔═╡ a480a678-73cc-4f82-8a94-a213f602eef7
-TableOfContents()
-
 # ╔═╡ e995663f-6058-4bb9-a878-cb1f3299757f
 #> [frontmatter]
 #> title = "API"
 #> category = "API"
+
+# ╔═╡ a480a678-73cc-4f82-8a94-a213f602eef7
+TableOfContents()
 
 # ╔═╡ c4e6107e-992f-4bef-87d4-ff87270512ad
 all_names = [name for name in names(MaterialDecomposition)];
