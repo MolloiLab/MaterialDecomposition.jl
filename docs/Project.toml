@@ -1,5 +1,6 @@
 [deps]
 CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 HTMLStrings = "c47fe496-5789-4377-b1db-55e89f2ee0c6"
 ImageMorphology = "787d08f9-d448-5407-9aad-5290dd7ab264"
 MaterialDecomposition = "c27b174a-794e-4afe-9da0-66d3b10781c5"
